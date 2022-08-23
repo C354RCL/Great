@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="authors" content="Emiliano, Cesar, Juan Pablo, Sebastian, Andres">
+        <link rel="preload" href="css/normalize.css" as="styles">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="preload" href="css/estilos.css" as="styles">
+        <link rel="stylesheet" href="css/estilos.css">
+        <title>Progreso | Great</title>
+        <link rel="icon" href="img/logo_large.ico">
+    </head>
+    <body>
+        <!--Header-->
+        <header class="header">
+            <a href="cardsPrueba.html">
+                <img src="img/logo_large.png" class="logo">
+            </a>
+            <div>
+                <a href="cardsPrueba.html" class="boton enlace">Inicio</a>
+                <a href="rutinas.html" class="boton enlace">Viaje</a>
+                <a href="progreso.html" class="boton enlace">Progreso</a>
+                <img class="imagen-header" src="img/gift-box.png">
+                <a href="perfil.html"><img class="imagen-header" src="img/account.png"></a>
+            </div>
+            
+        </header>
+        <!--Main-->
+        <main class="contenedor calendar">
+            
+            <div class="calendar-info">
+                <div class="calendar-prev" id="prev-month">&#9664</div>
+                <div class="calendar-month" id="month"></div>
+                <div class="calendar-year" id="year"></div>
+                <div class="calendar-next" id="next-month">&#9654</div>
+            </div>
+
+            <div class="calendar-week">
+                <div class="calendar-day calendar-item">Lun</div>
+                <div class="calendar-day calendar-item">Mar</div>
+                <div class="calendar-day calendar-item">Mie</div>
+                <div class="calendar-day calendar-item">Jue</div>
+                <div class="calendar-day calendar-item">Vie</div>
+                <div class="calendar-day calendar-item">Sab</div>
+                <div class="calendar-day calendar-item">Dom</div>
+            </div>
+            
+            <div class="calendar-dates" id="dates">
+            </div>
+
+
+        </main>
+
+        <script src="js/calendario.js"></script>
+    </body>

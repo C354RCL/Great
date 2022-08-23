@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="authors" content="Emiliano, Cesar, Juan Pablo, Sebastian, Andres">
+    <link rel="preload" href="css/normalize.css" as="styles">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preload" href="css/estilos.css" as="styles">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Registrarse | Great</title>
+    <link rel="shortcut icon" href="img/logo_large.ico">
+</head>
+
+<body>
+
+    <!--Main-->
+    <header class="header">
+        <a href="index.html">
+            <img src="img/logo_large.png" class="logo">
+        </a>
+        
+    </header>
+    <main class="contenedor">
+        <div class="contenido-principal contenido-registro">
+            <div class="contenedor-imagen2">
+                <img src="img/usuario-de-perfil.png">
+            </div>
+
+            <div class="informacion-inicio informacion-formulario">
+                <h1>¡Registrate en Great!</h1>
+                <form class="formulario">
+                    <fieldset>
+                        <legend>Información Personal</legend>
+        
+                        <label for="nombre">Nombre</label>
+                        <input type="text" placeholder="Tu Nombre" id="nombre">
+        
+                        <label for="email">E-mail</label>
+                        <input type="email" placeholder="Tu Email" id="email">
+        
+                        <label for="telefono">Teléfono</label>
+                        <input type="tel" placeholder="Tu Teléfono" id="telefono">
+
+                        <label for="contraseña">Contraseña</label>
+                        <input type="password" placeholder="Tu contraseña" id="contraseña">
+
+                        <label for="contraseñaConfirmacion">Confirma tu contraseña</label>
+                        <input type="password" placeholder="Tu contraseña" id="confirmacion">
+                        
+                    </fieldset>
+                </form>
+                <div class="contenedor-enviar">
+                    <button class="boton" id="enviar">Enviar</button>
+                </div>
+                <br>
+            </div>
+        </div>
+    </main>
+    <script src="js/main.js" type="module"></script>
+</body>
+
+</html>
